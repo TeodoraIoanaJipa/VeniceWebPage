@@ -11,7 +11,7 @@ function myMain(){
 		lista[i].style.textAlign="justify";
 		lista[i].style.textIndent="60px";		
 	}										
-
+	/*
 	document.getElementById("lego").onclick = function() {
 		creez_element("p");
 		schimb_stil_element();
@@ -19,7 +19,7 @@ function myMain(){
 	};
 
 	document.getElementById("lego").onmouseover = schimba;
-	document.getElementById("lego").onmouseout = schimba_stil;	
+	document.getElementById("lego").onmouseout = schimba_stil;	*/
 	document.getElementById("veneto").onmousemove=function(event){
 		var b=document.getElementById("lego");
 		b.proprietateNoua=event.pageX+"px";
@@ -31,8 +31,8 @@ function myMain(){
 	var myw;
 	var b=document.getElementById("btn");
 	b.addEventListener("click",function(){
-	 			myw=window.open("proiect.html","_blank","toolbar=yes,width=400")},false)
-	var b2=document.getElementById("btn2");
+	 			myw=window.open("1PROIECT.html","_blank","toolbar=yes,width=400")},false)
+	/*var b2=document.getElementById("btn2");
 	b2.addEventListener("click",function(){ myw.close();},false);
 
 	if(localStorage.lastvisit==undefined)
@@ -42,7 +42,7 @@ function myMain(){
 			localStorage.lastvisit=d;
 	}
 		else
-			alert("Ultima vizita a fost: "+localStorage.lastvisit);
+			alert("Ultima vizita a fost: "+localStorage.lastvisit);*/
 }
 
 function creez_element(tag){
